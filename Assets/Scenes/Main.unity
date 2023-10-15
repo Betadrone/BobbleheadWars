@@ -1315,6 +1315,9 @@ MonoBehaviour:
   minSpawnTime: 0
   maxSpawnTime: 3
   aliensPerSpawn: 3
+  upgradePrefab: {fileID: 105092, guid: 941d6224549424c91b1cf112b44ec0cb, type: 3}
+  gun: {fileID: 1997213016}
+  upgradeMaxTimeSpawn: 7.5
 --- !u!4 &1045999215
 Transform:
   m_ObjectHideFlags: 0
@@ -2071,6 +2074,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5243260193849732047, guid: 2618b7fbed31c7d4e9c52390ff144e9d, type: 3}
   launchPosition: {fileID: 1118477499}
+  isUpgraded: 0
+  upgradeTime: 10
 --- !u!54 &1997213017
 Rigidbody:
   m_ObjectHideFlags: 0
